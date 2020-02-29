@@ -1,0 +1,26 @@
+//显示多个表单
+//加号点击
+var current = 1;
+$(".jia").on("click",function () {
+	//状态变化值
+	current = 2;
+	//隐藏当前状态
+	$(this).hide();
+	//显示减号
+	$(".jian").show();
+    //显示多个表单
+    $(".form2").show();
+    $(".page05_inner").addClass("form2_mg");
+});
+//减号点击
+$(".jian").on("click",function () {
+    //状态变化值
+    current = 1;
+    //隐藏当前状态
+    $(this).hide();
+    //显示加号
+    $(".jia").show();
+    //显示多个表单
+    $(".form2").hide();
+    $(".page05_inner").removeClass("form2_mg");
+});

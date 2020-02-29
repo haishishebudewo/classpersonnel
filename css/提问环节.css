@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+input{
+    cursor: pointer;
+}
+#div_btn_img {
+    background-image: url("../images/meinv.jpg");
+    width: 30%;
+    height: 14vw;
+    overflow: hidden;
+    background-size: 100% 4700%;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.btn_end_start_xx {
+    width: 26%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#current_classmate {
+    width: 100%;
+    margin: 0 auto;
+    /*position: fixed;*/
+    /*bottom: 20px;*/
+    border: 10px solid pink;
+    overflow: hidden;
+    display: none;
+}
+
+.current_classmate_css{
+    width: 20%;
+    bottom: 10px;
+    height: 8vw;
+    background-image: url("../images/meinv.jpg");
+    overflow: hidden;
+    background-size: 100% 4700%;
+    background-repeat: no-repeat;
+    text-align: center;
+    float: left;
+    /*border: 10px solid #fff;*/
+}
+
+

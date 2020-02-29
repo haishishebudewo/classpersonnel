@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+#input_btn {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#input_btn input {
+    width: 25%;
+    float: left;
+}
+
+#input_btn select {
+    width: 20%;
+}
+
+#ul1 {
+    width: 200px;
+    margin: auto;
+}
+
+#left_right {
+    width: 90%;
+    /*height: 100px;*/
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+#left_right #left {
+    width: 46%;
+    /*height: 100px;*/
+    float: left;
+}
+
+#left_right #right {
+    width: 50%;
+    float: right;
+}
+
+#left_right #left #classmate_name {
+    width: 100%;
+    margin: auto;
+}
+
+#left_right #right #table_number {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#left_right #left input {
+    width: 100px;
+    height: 66px;
+    background-color: pink;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#ul_information_obj {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+#ul1 li h3 {
+    display: inline;
+}
+
+#div_input_number {
+    display: inline-block;
+}
+
+#input_btn_number {
+    cursor: auto;
+    font-size: 13px;
+    color: gray;
+}
+

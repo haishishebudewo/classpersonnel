@@ -1,0 +1,266 @@
+/*顶部start*/
+header {
+    background-color: #343f51;
+    background-size: cover;
+}
+
+.heder_inner{
+    background: #343f51;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo a {
+    width: 100%;
+    height: 80px;
+    display: block;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url("../images/logo.png") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.out {
+    display: block;
+    padding-top: 2.4rem;
+    color: #ffffff;
+}
+
+.out img {
+    width: 22px;
+    height: 22px;
+}
+
+.out span {
+    display: inline-block;
+    transform: translateY(14%);
+    color: #ffffff;
+}
+
+/*顶部end*/
+/*主题 start*/
+.main {
+    margin-top: 10px;
+}
+
+/*主题左边*/
+.main_left {
+    margin-right: 10px;
+}
+
+.main_left_top {
+    width: 200px;
+    background: #343f51;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.head {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nickname {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ID {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main_left_bottom {
+    margin-top: 5px;
+    width: 200px;
+    padding: 50px 0;
+    background: #343f51;
+}
+
+.main_left_bottom .current {
+    border-left: 6px solid #2db19c;
+    background: rgba(0, 0, 0, 0.2);
+    color: #2db19c;
+}
+
+.i_scale {
+    transform: rotate(180deg);
+    transform-origin: center 60%;
+}
+
+.student_base {
+    width: 100%;
+    padding: 7px 7px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-left: 6px solid #343f51;
+    position: relative;
+    margin-bottom: 20px;
+    transition:all 0.3s linear;
+    cursor: pointer;
+}
+
+.student_base i {
+    font-family: icomoon;
+}
+
+.student_base span {
+    margin: 0 0.4rem;
+}
+
+.i2 {
+    position: absolute;
+    right: 5px;
+    font-size: 20px;
+    top: 1px;
+    transition:all 0.3s linear;
+}
+
+/*内容右边*/
+.current_structure {
+    color: #c8c8c8;
+    font-size: 12px;
+}
+
+.mian_right {
+    width: calc(100% - 210px);
+}
+
+/*查询*/
+.query {
+    width: 100%;
+    margin-top: 18px;
+}
+.query_type, .tie_type {
+    outline: none;
+    border: 1px solid #34ae99;
+    color: #34ae99;
+    padding: 6px;
+    font-size: 12px;
+}
+/*查询类型*/
+.query_type{
+    margin-top: 9px;
+    margin-right: 10px;
+}
+/*查询系别*/
+.tie_type{
+    margin-top: 9px;
+    margin-right: 20px;
+}
+/*搜索*/
+.search {
+    width: 472px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #34ae99;
+    outline: none;
+    color: #34ae99;
+}
+.search_student a{
+    display: block;
+    padding: 14px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    background: #34ae99;
+    font-size: 12px;
+    width: 80px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.search_student a:hover{
+    text-decoration:none;
+}
+.search_input_query{
+    width: 552px;
+}
+.search_input_query button{
+    color: #FFFFFF;
+}
+/*信息*/
+.informations{
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+.informations a{
+    display: inline-block;
+    background: #34ae99;
+    padding: 8px;
+    color: #FFFFFF;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+/*主题 end*/
+.table_information{
+    height: 436px;
+    overflow: auto;
+}
+/* 发布公告 */
+.releaseStatement{
+    position: relative;
+}
+.releaseStatement textarea{
+    width: 100%;
+    height: 337px;
+    border: 1px solid #CCC;
+    padding: 1%;
+    resize: none;
+    padding-bottom: 120px;
+}
+.releaseStatement button{
+    display: block;
+    margin: 1rem auto;
+}
+.photo{
+    position: absolute;
+    left: 1%;
+    bottom: 16%;
+    width: 11%;
+    height: 100px;
+    background: url(../images/zXJ.jpg) no-repeat top center;
+    background-size: 100% auto;
+}
+#file {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: -6%;
+    top: 0;
+    cursor: pointer;
+    z-index: 5;
+}
+.gangGaoInner{
+    margin-top: 10px;
+    padding: 10px;
+    background: #CCC;
+}
+.gangGaoInnerInformation{
+    display: inline-block;
+    margin-right: 10px;
+}
+.gangGaoInnerInformation img{
+    width: 48px;
+    height: auto;
+    display: block;
+}
+.gangGaoInnerInformation p{
+    color: #000;
+    margin: 4px;
+}

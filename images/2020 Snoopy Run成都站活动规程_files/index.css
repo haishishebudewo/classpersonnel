@@ -1,0 +1,238 @@
+/* 公共样式 */
+/* 图片 */
+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 水平居中 */
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*水平、垂直居中*/
+.centereds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/*背景公共样式*/
+.bgTop{
+    position: absolute;
+    top: 0;
+}
+/* 使用伪元素清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: none;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+/*浮动*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.bgBtm{
+    position: absolute;
+    bottom: 0;
+}
+/*动画*/
+@keyframes move {
+    0%{
+        left: 50%;
+        bottom: 18%;
+    }
+    100%{
+        left: 50%;
+        bottom: 26%;
+    }
+}
+/* page01 start */
+.theme{
+    top: 10%;
+    width: 90%;
+}
+.logo{
+    width: 27%;
+    position: absolute;
+    left: 4%;
+    top: 3%;
+    height: auto;
+}
+.cost{
+    width: 50%;
+    bottom: 23%;
+}
+.xj{
+    width: 6%;
+    bottom: 18%;
+    animation: move 0.8s infinite alternate;
+}
+/* page01 end */
+/* page02 start */
+.page02_inner{
+    top: 10%;
+    width: 88%;
+}
+.page02_btn{
+    width: 35%;
+    bottom: 16%;
+    z-index: 20;
+}
+/* page02 end */
+/* page03 start */
+.page03_inner{
+    width: 90%;
+    z-index: 20;
+}
+.page03_inner_title{
+    width: 40%;
+    top: 16%;
+}
+.main{
+    width: 85%;
+    padding: 0.3rem;
+    border: 1px solid #ffb45b;
+    border-radius: 0.5rem;
+    color: #ffffff;
+}
+.she_qu_main{
+    top: 36%;
+}
+.text{
+    background: #ffb45b;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.she_qu_text{
+    width: 32%;
+}
+.ip{
+    outline: none;
+    padding: 0.5rem;
+    border: 1px solid #ffb45b;
+    border-radius: 0.5rem;
+    background: rgba(255,255,255,0);
+}
+.she_qu_value{
+    width: 63%;
+}
+.name_main{
+    top: 50%;
+}
+.name_text{
+    width: 24%;
+}
+#user_name{
+    width: 66%;
+}
+.ID_main{
+    top: 64%;
+}
+.ID_text{
+    width: 50%;
+}
+#ID{
+    width: 40%;
+}
+.page03_btn{
+    width: 40%;
+    bottom: 6%;
+}
+/* page03 end */
+/* page04 start */
+.page04_inner{
+    width: 90%;
+    top: 9%;
+}
+.page04_btn{
+    width: 28%;
+    bottom: 2%;
+}
+/* page04 end */
+/* page05 start */
+.page05_inner{
+    width: 90%;
+    background: rgba(221,239,255,.6);
+    z-index: 20;
+}
+.form2_mg{
+    margin: 6rem 0;
+    margin-top: 16rem;
+}
+.page05_inner_title{
+    width: 55%;
+    margin: 0 auto;
+}
+.small_name_main{
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+.small_gender_main{
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+.small_age_main{
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+.small_ID_main{
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+.small_phone_main{
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+.small_source_main{
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+.jia,.jian{
+    display: block;
+    width: 88%;
+    height: auto;
+    margin: 2rem auto;
+    margin-bottom: 0;
+}
+.page05_btn{
+    display: block;
+    width: 37%;
+    margin: 2rem auto;
+}
+/* page05 end */
+/* 弹窗层 */
+/*认证失败弹窗*/
+.ren_zhen_lose,.sign_up_btn{
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    background: #ed8f1f;
+    padding: 0.3rem 1rem;
+    color: #ffffff;
+}
+.information{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    overflow: auto;
+    height: 20rem;
+}
+.information p{
+    margin: 0 auto;
+}
